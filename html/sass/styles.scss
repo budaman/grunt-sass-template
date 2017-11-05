@@ -1,0 +1,22 @@
+$base-color: #777;
+$second-color: #333;
+$heading-font: Arial;
+
+.element {
+  width: 100px;
+  height: 100px;
+  p{
+    color: $second-color;
+    background: black;
+  }
+}
+
+.link{
+  color: $second-color;
+  font-size: 12px;
+}
+
+.heading{
+  font-family: $heading-font;
+  color: white;
+}
